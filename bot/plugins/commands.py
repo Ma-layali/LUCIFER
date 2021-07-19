@@ -28,14 +28,14 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = "@cinemazipnews",
+                caption = "@Mzonechat" "<code>" + file_name + "</code>",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    '💢 Our Channel 💢', url="https://t.me/cinema_zip"
+                                    'Channel', url="https://t.me/MzoneMovieTg"
                                 )
                         ]
                     ]
