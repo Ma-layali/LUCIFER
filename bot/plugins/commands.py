@@ -60,7 +60,7 @@ async def start(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
         photo="https://telegra.ph/file/51cda087bca07bb2fb790.jpg",
-        text=Translation.START_TEXT.format(
+        caption=Translation.START_TEXT.format(
                 update.from_user.first_name),
         reply_markup=reply_markup,
         parse_mode="html",
@@ -100,7 +100,7 @@ async def about(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
         photo="https://telegra.ph/file/013e951422f63f58fc88a.jpg",
-        text=Translation.ABOUT_TEXT,
+        caption=Translation.ABOUT_TEXT,
         reply_markup=reply_markup,
         disable_web_page_preview=True,
         parse_mode="html",
