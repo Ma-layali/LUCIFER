@@ -51,7 +51,7 @@ async def start(bot, update):
         InlineKeyboardButton('• Malayalam Movie •', url ='https://t.me/MzoneMovieTg')
     ],[
         InlineKeyboardButton('• Web-Series •', url='https://t.me/MzoneSeries')
-        InlineKeyboardButton('• Foreign Movies •', url='https://t.me/Mzone_Fn')
+        
         InlineKeyboardButton('• Indian Movies •', url='https://t.me/MZ_IndianMovies')
 
     ]]
