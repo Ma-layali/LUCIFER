@@ -47,13 +47,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('• Group •', url='https://t.me/Mzonechat'),
-        InlineKeyboardButton('• Malayalam Movie •', url ='https://t.me/MzoneMovieTg')
+        InlineKeyboardButton('• Malayalam Movies •', url='https://t.me/MzoneMovieTg'),
+        InlineKeyboardButton('• Web-Series •', url ='https://t.me/MzoneSeries')
     ],[
-        InlineKeyboardButton('• Web-Series •', url='https://t.me/MzoneSeries')
-        
-        InlineKeyboardButton('• Indian Movies •', url='https://t.me/MZ_IndianMovies')
-
+        InlineKeyboardButton('• Group •', url='https://t.me/Mzonechat')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
