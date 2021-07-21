@@ -5,14 +5,12 @@
 class Translation(object):
     
     START_TEXT = """<b>Hey {}!!</b>
-<i>Am Just A Advance Auto Filter Bot....😉
-
-
-Just ask movies in cinemazip and chill 🥶😌
-
-For More Details Click Help Button Below..
-@cinemazip
-</i>"""    
+<code>It's Lucifer</code>
+<b>Lucifer Morningstar</b> , also known as <b>Samael or The Lightbringer</b>, is one of <i>God's angels</i> and the infamous <i>ruler of Hell</i>. He served as the <i>King of Hell</i> for eons until he decided that he needed a change of scenery. He is commonly known as the <b>Devil</b> or <b>Satan by humans</b>. Having grown tired of ruling the Underworld, after being cast out and fallen from <i>Heaven</i>, Lucifer voluntarily left his position in Hell to become a nightclub owner in Los Angeles, operating an establishment called Lux with his closest friend and senior lieutenant, the demon <b>Mazikeen</b>.
+<b>Click /help to know about me</b>
+Click /about for BIOGRAPHICAL INFORMATION
+♾ @MzoneChat ♾
+"""    
     
     HELP_TEXT = """
 <b><i><u>How To Use Me!?</u></i></b>
