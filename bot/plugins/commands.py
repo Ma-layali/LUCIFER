@@ -102,7 +102,6 @@ async def about(bot, update):
         photo="https://telegra.ph/file/013e951422f63f58fc88a.jpg",
         caption=Translation.ABOUT_TEXT,
         reply_markup=reply_markup,
-        disable_web_page_preview=True,
         parse_mode="html",
         reply_to_message_id=update.message_id
     )
