@@ -99,7 +99,7 @@ async def about(bot, update):
     
     await bot.send_message(
         chat_id=update.chat.id,
-        photo="https://telegra.ph/file/f45e1cc42b47b98071c37.jpg",
+        photo="https://telegra.ph/file/013e951422f63f58fc88a.jpg",
         text=Translation.ABOUT_TEXT,
         reply_markup=reply_markup,
         disable_web_page_preview=True,
