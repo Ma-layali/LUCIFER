@@ -54,6 +54,8 @@ async def start(bot, update):
         
         InlineKeyboardButton('• Indian Movies •', url='https://t.me/MZ_IndianMovies')
 
+    ],[
+        InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
