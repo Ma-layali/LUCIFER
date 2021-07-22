@@ -51,8 +51,6 @@ async def start(bot, update):
         InlineKeyboardButton('• Web-Series •', url ='https://t.me/MzoneSeries')
     ],[
         InlineKeyboardButton('• Group •', url='https://t.me/Mzonechat')
-    ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
