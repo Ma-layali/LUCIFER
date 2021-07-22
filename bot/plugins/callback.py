@@ -1643,8 +1643,6 @@ async def callback_data(bot, update: CallbackQuery):
             
         ],[
             InlineKeyboardButton(' channel ', url='https://t.me/MzoneMovieTg')
-        ],[
-            InlineKeyboardButton('Help ⚙', callback_data="help")
         ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
