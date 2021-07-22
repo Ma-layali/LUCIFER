@@ -12,7 +12,8 @@ class Translation(object):
 
 <b>Click /help to know about me</b>
 
-</b>Click /about for BIOGRAPHICAL INFORMATION</b>
+<b>Click /about for BIOGRAPHICAL INFORMATION</b>
+
 ♾ @MzoneChat ♾
 """    
     
@@ -30,23 +31,28 @@ After spending thousands of years later (in Hell time), Lucifer was forced to re
 
 """
     
-    ABOUT_TEXT = """ <center><b><i><u>BIOGRAPHICAL INFORMATION</u></i></b><center>
+    ABOUT_TEXT = """ <b><i><u>BIOGRAPHICAL INFORMATION</u></i></b>
+
 <b>SPECIES:</b> <code>Archangel</code>
-            <code>God</code>
+                  <code>God</code>
 
 <b>STATUS :</b> <code>Extant</code>
 
-<b>DATE OF BIRTH :</b> <code>Before the creation of the Universe</code>
+<b>DATE OF BIRTH :</b> <code>Before the creation of the 
+               Universe</code>
 
 <b>AGE :</b> <code>3.8 Billion Years Old</code>
 
 <b>GENDER :</b>  <code>Male</code>
-<u><center>AFFILIATIONS</center></u>
+
+<i><u>AFFILIATIONS</u></i>
+
 <b>HOME</b> : <code>Silver City</code>
                <code>Heaven</code> (formerly)
                <code>Hell</code> (formerly)
                <code>Apartment, Los Angeles</code> (formerly)
-               <code>Lux, Los Angeles, Earth-666</code> (Currently)
+               <code>Lux, Los Angeles, Earth-666</code>
+
 <b>RELATIVES</b> : <code>God</code> (father)
                         <code>Goddess</code> (mother)
                         <code>Angels</code> (siblings)
@@ -54,5 +60,6 @@ After spending thousands of years later (in Hell time), Lucifer was forced to re
                         <code>Chloe Decker</code> (girlfriend)
                         <code>Eve</code> (ex-girlfriend)
                         <code>Mazikeen</code> (former lieutenant; friend)
+
 <b>Master/Creater : @Mzoneceo</b>
 """
