@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Channel', url="https://t.me/MzoneChat"
+                                    'Channel', url="https://t.me/MzoneMovieTg"
                                 )
                         ]
                     ]
